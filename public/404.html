@@ -84,12 +84,10 @@
     </div>
     
     <script>
-        // Redirect single-page app 404s to index.html
-        if (window.location.pathname !== '/' && 
-            !window.location.pathname.endsWith('.html') &&
-            !window.location.pathname.includes('.')) {
-            window.location.href = '/?redirect=' + encodeURIComponent(window.location.pathname);
-        }
+        // Store the redirect path for the SPA to handle
+        // This allows React Router to properly handle the route
+        sessionStorage.redirect = window.location.pathname + window.location.search;
+        window.location.href = '/';
     </script>
 </body>
 </html>
