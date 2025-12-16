@@ -4,25 +4,25 @@ import { Footer } from "@/components/layout/Footer";
 import { Users, Award, Heart, Zap, Target, Shield, Lightbulb, TrendingUp } from "lucide-react";
 
 const values = [
-  { icon: Heart, title: "Customer First", description: "Every decision starts with what's best for you." },
-  { icon: Zap, title: "Innovation", description: "Constantly improving our network and services." },
-  { icon: Users, title: "Community", description: "We're your neighbors, invested in local success." },
-  { icon: Award, title: "Excellence", description: "Committed to the highest quality in everything." },
+  { icon: Heart, title: "User First", description: "Your needs guide every decision we make." },
+  { icon: Lightbulb, title: "Transparency", description: "Clear, honest information about how we work." },
+  { icon: Shield, title: "Independence", description: "Unbiased guidance with no provider allegiance." },
+  { icon: TrendingUp, title: "Growth", description: "Learning and improving our platform daily." },
 ];
 
 const timeline = [
-  { year: "2014", title: "Company Founded", description: "Started with a vision to revolutionize internet connectivity" },
-  { year: "2016", title: "First 1000 Customers", description: "Reached our first major milestone in customer growth" },
-  { year: "2019", title: "Fiber Network Expansion", description: "Deployed fiber optic infrastructure across the region" },
-  { year: "2022", title: "Award-Winning Service", description: "Recognized as Best ISP Provider by Tech Review" },
-  { year: "2025", title: "10,000+ Connected", description: "Serving over 10,000 homes and businesses" },
+  { year: "2025", title: "Platform Launched", description: "HubNet starts as an independent assistance platform" },
+  { year: "Q1 2025", title: "Core Features", description: "Built our guidance and comparison tools" },
+  { year: "Q2 2025", title: "User Feedback", description: "Actively learning from early users to improve" },
+  { year: "Q3 2025", title: "Service Expansion", description: "Added more provider references and resources" },
+  { year: "Q4 2025", title: "Growing", description: "Helping more people navigate service options" },
 ];
 
 const achievements = [
-  { icon: Users, value: "10K+", label: "Active Customers" },
-  { icon: Target, value: "99.9%", label: "Uptime Guarantee" },
-  { icon: Shield, value: "24/7", label: "Customer Support" },
-  { icon: TrendingUp, value: "500+", label: "Miles of Fiber" },
+  { icon: Users, value: "2025", label: "Year Launched" },
+  { icon: Target, value: "100%", label: "Independent" },
+  { icon: Shield, value: "24/7", label: "Guidance Available" },
+  { icon: Lightbulb, value: "New", label: "Always Learning" },
 ];
 
 const AboutPage = () => {
@@ -46,7 +46,7 @@ const AboutPage = () => {
               transition={{ delay: 0.1 }}
               className="text-muted-foreground text-sm sm:text-base md:text-lg max-w-2xl mx-auto"
             >
-              We're on a mission to make fast, reliable internet accessible to everyone. Since 2014, we've been connecting communities with the technology they deserve.
+              A new kind of service platform, launched in 2025 to help consumers navigate the complex world of internet, cable, and streaming options. We're here to guide, not sell.
             </motion.p>
           </div>
         </section>
@@ -60,12 +60,12 @@ const AboutPage = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
               >
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6">Our Story</h2>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6">Our Mission</h2>
                 <p className="text-sm sm:text-base text-primary-foreground/80 mb-4">
-                  Founded by a team of tech enthusiasts frustrated with slow, unreliable internet, HubNet was born from a simple idea: everyone deserves great connectivity.
+                  Launched in 2025, HubNet was created to solve a simple problem: finding and comparing internet and cable services is confusing and time-consuming. We built this platform to make it easier.
                 </p>
                 <p className="text-primary-foreground/80">
-                  Today, we serve over 2,000 homes and businesses with fiber-fast speeds and friendly, local support. We're not just an internet provider — we're your neighbors.
+                  As an independent startup, we provide unbiased guidance to help you understand your options. We're learning and improving every day, focused on making the process transparent and user-friendly.
                 </p>
               </motion.div>
               <motion.div

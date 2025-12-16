@@ -55,7 +55,7 @@ const ContactPage = () => {
               className="bg-accent/10 border border-accent/20 rounded-xl p-3 mt-6 max-w-2xl mx-auto"
             >
               <p className="text-xs sm:text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Independent Assistance:</span> HubNet is a third-party platform. We are not affiliated with any service provider.
+                <span className="font-semibold text-foreground">New Startup:</span> HubNet is an independent assistance platform launched in 2025. We are not affiliated with any service provider.
               </p>
             </motion.div>
           </div>

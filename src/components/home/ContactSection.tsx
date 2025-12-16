@@ -56,7 +56,7 @@ export function ContactSection() {
           <p className="text-accent text-xs sm:text-sm font-medium mb-2">Get In Touch</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4">Let's Connect</h2>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto">
-            Have questions about internet or cable services? Our assistance team is here to guide you through your options.
+            Questions about how we can help? We're a new startup, and we'd love to hear your feedback and assist with your service research.
           </p>
         </motion.div>
 
@@ -120,7 +120,7 @@ export function ContactSection() {
           <Phone className="w-16 h-16 mx-auto mb-6 text-accent-foreground" />
           <h3 className="heading-md text-accent-foreground mb-4">Ready for Assistance?</h3>
           <p className="text-accent-foreground/90 text-lg mb-8 max-w-2xl mx-auto">
-            Let us help you explore internet and cable options in your area. Our guidance team is ready to assist you.
+            We're here to answer questions and provide guidance on service options in your area. As a new platform, we value every conversation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="bg-white text-accent hover:bg-white/90" asChild>

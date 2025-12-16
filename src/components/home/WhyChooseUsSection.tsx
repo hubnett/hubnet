@@ -31,7 +31,7 @@ export function WhyChooseUsSection() {
               Why Choose<br />Our Assistance
             </h2>
             <p className="text-muted-foreground text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-              We provide unbiased guidance to help you explore internet, cable, and streaming options. As an independent platform, we help you make informed decisions about service providers in your area.
+              As a new platform launched in 2025, we're committed to transparency and continuous improvement. We provide educational resources to help you understand service options without any provider bias or sales pressure.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">

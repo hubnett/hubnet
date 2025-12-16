@@ -58,7 +58,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-muted-foreground text-sm sm:text-base md:text-lg"
           >
-            We provide guidance and assistance to help you navigate internet, cable, and streaming service options. Our team helps you explore what's available and facilitates connections with providers in your area.
+            We're building tools and resources to help you research internet, cable, and streaming services. As a new startup, we're focused on providing clear, unbiased information to make your decision easier.
           </motion.p>
         </div>
 

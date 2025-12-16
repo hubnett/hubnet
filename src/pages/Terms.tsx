@@ -26,7 +26,7 @@ const TermsPage = () => {
 
               <div className="bg-accent/10 border border-accent/20 rounded-xl p-4 mb-8">
                 <p className="text-sm text-muted-foreground">
-                  <span className="font-semibold text-foreground">Important Notice:</span> HubNet is an independent third-party assistance platform. We are not an internet service provider, cable company, or streaming service. We are not affiliated with, endorsed by, or representing any service provider.
+                  <span className="font-semibold text-foreground">New Platform Notice:</span> HubNet is an independent third-party service assistance startup, launched in 2025. We are not an internet service provider, cable company, or streaming service. We are not affiliated with, endorsed by, or representing any service provider.
                 </p>
               </div>
 

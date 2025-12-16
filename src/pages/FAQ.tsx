@@ -11,7 +11,7 @@ import {
 const faqData = [
   {
     question: "Are you an official cable or internet provider?",
-    answer: "No, we are not. HubNet operates as an independent third-party assistance platform. We are not affiliated with, endorsed by, or representing any internet, cable, or streaming service provider. Our role is to help guide you through the process of finding and setting up services that may be available in your area."
+    answer: "No, we are not. HubNet is an independent third-party assistance platform launched in 2025. We are not affiliated with, endorsed by, or representing any internet, cable, or streaming service provider. We're a new startup focused on helping you navigate and understand your service options."
   },
   {
     question: "Do you sell internet, cable, or streaming plans?",

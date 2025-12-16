@@ -67,7 +67,7 @@ export function HeroSection() {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-base sm:text-lg text-muted-foreground mb-4 md:mb-6 max-w-lg"
             >
-              We assist you in exploring internet, cable, and streaming options available in your area. Our guidance helps you navigate service choices and get connected with providers.
+              We're a new startup helping people understand and compare internet, cable, and streaming options. Our goal is to make the research process simpler and more transparent.
             </motion.p>
 
             <motion.div
@@ -77,7 +77,7 @@ export function HeroSection() {
               className="bg-accent/10 border border-accent/20 rounded-xl p-3 mb-6 md:mb-8 max-w-lg"
             >
               <p className="text-xs sm:text-sm text-muted-foreground">
-                <span className="font-semibold text-foreground">Important:</span> HubNet is an independent third-party assistance platform. We are not affiliated with or endorsed by any service provider.
+                <span className="font-semibold text-foreground">New Platform:</span> HubNet is an independent third-party assistance startup launched in 2025. We are not affiliated with or endorsed by any service provider.
               </p>
             </motion.div>
 

@@ -24,9 +24,9 @@ const DisclaimerPage = () => {
             >
               <p className="text-muted-foreground mb-6">Last updated: December 16, 2024</p>
 
-              <h2 className="heading-md mt-8 mb-4">Independent Third-Party Service</h2>
+              <h2 className="heading-md mt-8 mb-4">Independent Startup Platform</h2>
               <p className="text-muted-foreground mb-4">
-                HubNet is an independent third-party assistance platform. We are not an internet service provider, cable company, or streaming service. We are not affiliated with, endorsed by, certified by, or officially connected with any internet, cable, television, or streaming service provider.
+                HubNet is an independent third-party service assistance startup, launched in 2025. We are not an internet service provider, cable company, or streaming service. We are not affiliated with, endorsed by, certified by, or officially connected with any internet, cable, television, or streaming service provider. As a new platform, we are continuously learning and improving our services.
               </p>
 
               <h2 className="heading-md mt-8 mb-4">Nature of Our Services</h2>

@@ -35,7 +35,7 @@ export function Footer() {
               <span className="text-lg sm:text-xl font-bold">HubNet</span>
             </Link>
             <p className="text-sm sm:text-base text-primary-foreground/70 mb-4 sm:mb-6 max-w-sm">
-              Independent assistance platform helping you explore and connect with internet, cable, and streaming services.
+              A new assistance platform helping you explore internet, cable, and streaming services. Launched 2025.
             </p>
             <div className="flex items-center gap-2">
               <a href="tel:+18559450333" className="text-accent hover:text-accent/80 transition-colors font-semibold text-sm sm:text-base">
@@ -100,7 +100,7 @@ export function Footer() {
         <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-primary-foreground/10">
           <div className="bg-primary-foreground/5 rounded-2xl p-4 sm:p-6 mb-6">
             <p className="text-primary-foreground/70 text-xs sm:text-sm text-center leading-relaxed">
-              <span className="font-semibold text-primary-foreground">Independent Third-Party Service:</span> HubNet is an independent assistance platform for cable, internet, and streaming services. We are not affiliated with, endorsed by, or representing any service provider. All trademarks belong to their respective owners.
+              <span className="font-semibold text-primary-foreground">Independent Startup Platform:</span> HubNet is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. All trademarks belong to their respective owners.
             </p>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
