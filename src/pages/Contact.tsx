@@ -148,7 +148,8 @@ const ContactPage = () => {
                         <Phone size={24} className="text-accent" />
                       </div>
                       <h4 className="font-bold text-lg mb-2">Request Assistance</h4>
-                      <p className="text-muted-foreground">Our guidance team is available to help you explore service options.</p>
+                      <p className="text-muted-foreground mb-3">Our guidance team is available to help you explore service options.</p>
+                      <p className="text-xs text-muted-foreground italic">When calling: "Thank you for calling HubNet, an independent service assistance platform."</p>
                     </div>
                     <div className="p-6 bg-secondary rounded-2xl">
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">

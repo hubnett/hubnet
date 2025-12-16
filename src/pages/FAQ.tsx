@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     question: "Are your services refundable?",
-    answer: "Please refer to our Refund Policy page for complete details about our refund terms and conditions. We want to ensure you understand the scope of our assistance services before engaging with our platform."
+    answer: "Yes. Refund requests can be submitted within 7 to 15 days of service purchase, depending on the type of assistance provided. Eligibility depends on whether services have been delivered and the service type. Please review our Refund Policy page for complete eligibility details and conditions."
   },
   {
     question: "How do I contact customer support?",
