@@ -5,29 +5,29 @@ import { Wifi, Building2, Router, Tv, ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Residential Plans",
-    description: "High-speed internet for your home with unlimited data and 24/7 support.",
+    title: "Residential Assistance",
+    description: "We help you explore home internet options and connect with providers in your area.",
     icon: Wifi,
     href: "/plans",
     color: "bg-accent",
   },
   {
-    title: "Business Solutions",
-    description: "Enterprise-grade connectivity with dedicated support and SLA guarantees.",
+    title: "Business Guidance",
+    description: "Assistance for businesses seeking reliable internet and communication services.",
     icon: Building2,
     href: "/business",
     color: "bg-charcoal",
   },
   {
-    title: "Managed Wi-Fi",
-    description: "Professional installation and management of your wireless network.",
+    title: "Setup Support",
+    description: "Guidance on connecting and configuring your home network equipment.",
     icon: Router,
     href: "/plans",
     color: "bg-accent",
   },
   {
-    title: "TV & Bundles",
-    description: "Stream your favorite content with our all-in-one entertainment packages.",
+    title: "Streaming Help",
+    description: "Explore streaming and entertainment service options available to you.",
     icon: Tv,
     href: "/plans",
     color: "bg-charcoal",
@@ -49,7 +49,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight">
-              Our Comprehensive<br />Internet Plans
+              Assistance Services<br />We Provide
             </h2>
           </motion.div>
           <motion.p
@@ -58,7 +58,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-muted-foreground text-sm sm:text-base md:text-lg"
           >
-            From fiber to wireless and property solutions, we offer a wide range of internet plans tailored to power what matters most to you. Explore our flexible and affordable options, designed to provide peace of mind in every aspect of your life.
+            We provide guidance and assistance to help you navigate internet, cable, and streaming service options. Our team helps you explore what's available and facilitates connections with providers in your area.
           </motion.p>
         </div>
 

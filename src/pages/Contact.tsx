@@ -46,8 +46,18 @@ const ContactPage = () => {
               transition={{ delay: 0.1 }}
               className="text-muted-foreground text-sm sm:text-base md:text-lg max-w-2xl mx-auto"
             >
-              Have questions or ready to get started? We're here to help.
+              Have questions about our assistance services? We're here to guide you.
             </motion.p>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15 }}
+              className="bg-accent/10 border border-accent/20 rounded-xl p-3 mt-6 max-w-2xl mx-auto"
+            >
+              <p className="text-xs sm:text-sm text-muted-foreground">
+                <span className="font-semibold text-foreground">Independent Assistance:</span> HubNet is a third-party platform. We are not affiliated with any service provider.
+              </p>
+            </motion.div>
           </div>
         </section>
 
@@ -137,8 +147,8 @@ const ContactPage = () => {
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">
                         <Phone size={24} className="text-accent" />
                       </div>
-                      <h4 className="font-bold text-lg mb-2">Give Us a Call</h4>
-                      <p className="text-muted-foreground">Our support team is available to assist you with any questions.</p>
+                      <h4 className="font-bold text-lg mb-2">Request Assistance</h4>
+                      <p className="text-muted-foreground">Our guidance team is available to help you explore service options.</p>
                     </div>
                     <div className="p-6 bg-secondary rounded-2xl">
                       <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">

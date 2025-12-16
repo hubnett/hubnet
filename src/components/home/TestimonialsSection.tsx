@@ -6,42 +6,42 @@ const testimonials = [
   {
     name: "Alan Baker",
     role: "Small Business Owner",
-    content: "Working with HubNet has been an incredible experience. They truly listened to our needs and delivered a stunning network that exceeded our expectations. We couldn't be happier with the final product!",
+    content: "HubNet helped me navigate the complex world of business internet options. Their guidance was invaluable in finding the right provider for my needs.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "Thomas Webb",
     role: "Remote Worker",
-    content: "From start to finish, working with HubNet was a breeze. They were collaborative and delivered results that our whole family loves. The speed is incredible!",
+    content: "The assistance team was patient and thorough, explaining all my options without pressure. They made choosing a provider so much easier.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "Sarah Mitchell",
     role: "Home Office Professional",
-    content: "The reliability is unmatched. After switching to HubNet, I haven't had a single dropped connection during important video calls. Highly recommend!",
+    content: "I appreciated the unbiased guidance. HubNet helped me understand what to look for in an internet provider without pushing any specific company.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "Michael Chen",
     role: "Gamer & Streamer",
-    content: "The low latency and consistent speeds have transformed my streaming experience. No more buffering or lag during crucial gaming moments!",
+    content: "Their expertise helped me find a provider that met my gaming needs. The consultation was informative and helped me make an informed decision.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "Emily Rodriguez",
     role: "Content Creator",
-    content: "Upload speeds are phenomenal! What used to take hours now takes minutes. HubNet has completely changed my workflow.",
+    content: "HubNet's guidance saved me hours of research. They helped me understand which upload speeds I needed for content creation.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
   },
   {
     name: "David Thompson",
     role: "Family Household",
-    content: "With four kids all online at once, we needed reliable internet. HubNet delivers every single time. Best decision we made!",
+    content: "With four kids, choosing the right internet was overwhelming. HubNet's assistance made the process simple and stress-free.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face",
   },
@@ -60,8 +60,8 @@ export function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-8 sm:mb-12 md:mb-16"
         >
-          <p className="text-accent text-xs sm:text-sm font-medium mb-2">What Our Customers Say</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-primary-foreground">Real Stories, Real Results</h2>
+          <p className="text-accent text-xs sm:text-sm font-medium mb-2">Customer Experiences</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-primary-foreground">Helping You Find Solutions</h2>
         </motion.div>
 
         {/* Bento Grid Layout */}

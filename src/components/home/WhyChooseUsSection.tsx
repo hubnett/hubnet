@@ -4,12 +4,12 @@ import wifiRouter from "@/assets/wifi-router.png";
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Free professional installation",
-  "Latest Wi-Fi 6 technology included",
-  "No data caps or throttling",
-  "30-day money-back guarantee",
-  "Local 24/7 customer support",
-  "No hidden fees or contracts",
+  "Independent third-party guidance",
+  "No provider affiliation or bias",
+  "Multiple provider options explored",
+  "Transparent service fee structure",
+  "Knowledgeable assistance team",
+  "Help understanding your options",
 ];
 
 export function WhyChooseUsSection() {
@@ -28,10 +28,10 @@ export function WhyChooseUsSection() {
           >
             <span className="text-accent text-xs sm:text-sm font-semibold uppercase tracking-wider">Why Choose HubNet</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight mt-3 sm:mt-4 mb-4 sm:mb-6">
-              Premium Equipment<br />Included Free
+              Why Choose<br />Our Assistance
             </h2>
             <p className="text-muted-foreground text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-              Every plan includes our latest Wi-Fi 6 router at no extra cost. Enjoy blazing-fast wireless speeds in every corner of your home with mesh network support.
+              We provide unbiased guidance to help you explore internet, cable, and streaming options. As an independent platform, we help you make informed decisions about service providers in your area.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">

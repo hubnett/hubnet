@@ -22,41 +22,47 @@ const RefundPage = () => {
               transition={{ delay: 0.1 }}
               className="prose prose-lg max-w-none"
             >
-              <p className="text-muted-foreground mb-6">Last updated: December 1, 2024</p>
+              <p className="text-muted-foreground mb-6">Last updated: December 16, 2024</p>
 
-              <h2 className="heading-md mt-8 mb-4">1. 30-Day Money Back Guarantee</h2>
+              <div className="bg-accent/10 border border-accent/20 rounded-xl p-4 mb-8">
+                <p className="text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">Important Notice:</span> This refund policy applies only to HubNet's assistance service fees. It does not apply to charges from third-party service providers. Contact your provider directly for their refund policies.
+                </p>
+              </div>
+
+              <h2 className="heading-md mt-8 mb-4">1. Service Fee Refunds</h2>
               <p className="text-muted-foreground mb-4">
-                New customers are eligible for a full refund within the first 30 days of service if they are not satisfied for any reason. To request a refund, contact our customer support team.
+                Refunds for HubNet's assistance service fees may be requested within 30 days of payment if you are unsatisfied with the guidance services we provided. To request a refund, contact our support team at (855) 945-0333.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">2. Service Credits</h2>
+              <h2 className="heading-md mt-8 mb-4">2. Third-Party Provider Charges</h2>
               <p className="text-muted-foreground mb-4">
-                If you experience a service outage lasting more than 24 consecutive hours due to issues within our network, you may be eligible for a prorated service credit on your next bill.
+                HubNet cannot issue refunds for charges billed by internet, cable, or streaming service providers. You will need to contact your service provider directly regarding their billing and refund policies. We are not a party to your agreement with them.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">3. Installation Fee Refunds</h2>
+              <h2 className="heading-md mt-8 mb-4">3. Consultation Fees</h2>
               <p className="text-muted-foreground mb-4">
-                Installation fees are non-refundable once the installation has been completed. If installation cannot be completed due to issues on our end, the fee will be fully refunded.
+                If you engaged our consultation services and did not proceed with connecting to a provider, our service fee may be refundable based on the scope of assistance provided. Contact our support team to discuss your specific situation.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">4. Equipment Returns</h2>
+              <h2 className="heading-md mt-8 mb-4">3. Consultation Fees</h2>
               <p className="text-muted-foreground mb-4">
-                Leased equipment must be returned within 14 days of service cancellation. Failure to return equipment may result in charges for the full replacement cost.
+                If you engaged our consultation services and did not proceed with connecting to a provider, our service fee may be refundable based on the scope of assistance provided. Contact our support team to discuss your specific situation.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">5. Early Termination</h2>
+              <h2 className="heading-md mt-8 mb-4">4. Non-Refundable Services</h2>
               <p className="text-muted-foreground mb-4">
-                If you cancel service before the end of your contract term, early termination fees may apply as outlined in your service agreement. The 30-day money back guarantee supersedes early termination fees for new customers.
+                Certain assistance services may be non-refundable once completed, such as comprehensive service comparisons or detailed consultation sessions. These will be clearly identified before you engage the service.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">6. How to Request a Refund</h2>
+              <h2 className="heading-md mt-8 mb-4">5. How to Request a Refund</h2>
               <p className="text-muted-foreground mb-4">
-                To request a refund or service credit, please contact us at billing@hubnet.com or call (123) 456-7890. Include your account number and reason for the request.
+                To request a refund of HubNet's service fees, please contact us at support@hubnet.com or call (855) 945-0333. Include your account information and reason for the request. Please note this does not apply to provider charges.
               </p>
 
-              <h2 className="heading-md mt-8 mb-4">7. Processing Time</h2>
+              <h2 className="heading-md mt-8 mb-4">6. Processing Time</h2>
               <p className="text-muted-foreground">
-                Approved refunds will be processed within 5-10 business days and credited to your original payment method.
+                Approved refunds for our service fees will be processed within 5-10 business days and credited to your original payment method.
               </p>
             </motion.div>
           </div>

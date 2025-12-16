@@ -2,16 +2,17 @@ import { Link } from "react-router-dom";
 
 const footerLinks = {
   services: [
-    { label: "Residential Plans", href: "/plans" },
-    { label: "Business Solutions", href: "/business" },
-    { label: "Managed Wi-Fi", href: "/plans" },
-    { label: "TV & Bundles", href: "/plans" },
+    { label: "Service Assistance", href: "/plans" },
+    { label: "Business Guidance", href: "/business" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Coverage Info", href: "/coverage" },
   ],
   company: [
     { label: "About Us", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],
   legal: [
+    { label: "Disclaimer", href: "/disclaimer" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms & Conditions", href: "/terms" },
     { label: "Refund Policy", href: "/refund" },
@@ -34,7 +35,7 @@ export function Footer() {
               <span className="text-lg sm:text-xl font-bold">HubNet</span>
             </Link>
             <p className="text-sm sm:text-base text-primary-foreground/70 mb-4 sm:mb-6 max-w-sm">
-              Internet that actually makes life easier. Fast, reliable connectivity for homes and businesses.
+              Independent assistance platform helping you explore and connect with internet, cable, and streaming services.
             </p>
             <div className="flex items-center gap-2">
               <a href="tel:+18559450333" className="text-accent hover:text-accent/80 transition-colors font-semibold text-sm sm:text-base">
@@ -96,10 +97,17 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-primary-foreground/10 flex flex-col md:flex-row items-center justify-center gap-4">
-          <p className="text-primary-foreground/50 text-xs sm:text-sm">
-            © {new Date().getFullYear()} HubNet. All rights reserved.
-          </p>
+        <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-primary-foreground/10">
+          <div className="bg-primary-foreground/5 rounded-2xl p-4 sm:p-6 mb-6">
+            <p className="text-primary-foreground/70 text-xs sm:text-sm text-center leading-relaxed">
+              <span className="font-semibold text-primary-foreground">Independent Third-Party Service:</span> HubNet is an independent assistance platform for cable, internet, and streaming services. We are not affiliated with, endorsed by, or representing any service provider. All trademarks belong to their respective owners.
+            </p>
+          </div>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+            <p className="text-primary-foreground/50 text-xs sm:text-sm">
+              © {new Date().getFullYear()} HubNet. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

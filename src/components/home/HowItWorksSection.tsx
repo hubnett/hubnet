@@ -6,26 +6,26 @@ import { MapPin, Calendar, Wrench, Wifi } from "lucide-react";
 const steps = [
   {
     icon: MapPin,
-    title: "Check Coverage",
-    description: "Enter your address to see available plans in your area.",
+    title: "Share Your Location",
+    description: "Tell us your address so we can explore available providers.",
     color: "bg-accent",
   },
   {
     icon: Calendar,
-    title: "Choose Your Plan",
-    description: "Select the perfect speed and features for your household.",
+    title: "Get Guidance",
+    description: "We help you understand service options and features.",
     color: "bg-charcoal",
   },
   {
     icon: Wrench,
-    title: "Free Installation",
-    description: "Our certified technicians install your service at no cost.",
+    title: "Facilitate Connection",
+    description: "We assist in connecting you with your chosen provider.",
     color: "bg-accent",
   },
   {
     icon: Wifi,
-    title: "Get Connected",
-    description: "Start enjoying blazing-fast internet within 48 hours.",
+    title: "Ongoing Support",
+    description: "We're available to help with questions and guidance.",
     color: "bg-charcoal",
   },
 ];
@@ -45,7 +45,7 @@ export function HowItWorksSection() {
           className="text-center mb-16"
         >
           <span className="text-accent text-sm font-semibold uppercase tracking-wider">How It Works</span>
-          <h2 className="heading-lg mt-4">Get Connected in 4 Easy Steps</h2>
+          <h2 className="heading-lg mt-4">How Our Assistance Works</h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">

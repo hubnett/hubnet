@@ -31,7 +31,7 @@ export function HeroSection() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="text-muted-foreground mb-3 md:mb-4 text-xs sm:text-sm tracking-wide uppercase"
             >
-              Lightning-fast fiber & cable internet
+              Internet & Cable Connection Assistance
             </motion.p>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-4 md:mb-6">
@@ -41,7 +41,7 @@ export function HeroSection() {
                 transition={{ delay: 0.3, duration: 0.6 }}
                 className="block"
               >
-                Blazing Fast
+                Get Help
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, y: 30 }}
@@ -49,7 +49,7 @@ export function HeroSection() {
                 transition={{ delay: 0.4, duration: 0.6 }}
                 className="block text-accent"
               >
-                Internet &amp; Cable
+                Finding Internet
               </motion.span>
               <motion.span
                 initial={{ opacity: 0, y: 30 }}
@@ -57,7 +57,7 @@ export function HeroSection() {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 className="block"
               >
-                For Your Home.
+                &amp; Cable Services
               </motion.span>
             </h1>
 
@@ -65,10 +65,21 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
-              className="text-base sm:text-lg text-muted-foreground mb-6 md:mb-8 max-w-lg"
+              className="text-base sm:text-lg text-muted-foreground mb-4 md:mb-6 max-w-lg"
             >
-              Experience uninterrupted streaming, gaming, and browsing with our fiber-optic network. Up to 1 Gbps speeds with 99.9% uptime guaranteed.
+              We assist you in exploring internet, cable, and streaming options available in your area. Our guidance helps you navigate service choices and get connected with providers.
             </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.65, duration: 0.5 }}
+              className="bg-accent/10 border border-accent/20 rounded-xl p-3 mb-6 md:mb-8 max-w-lg"
+            >
+              <p className="text-xs sm:text-sm text-muted-foreground">
+                <span className="font-semibold text-foreground">Important:</span> HubNet is an independent third-party assistance platform. We are not affiliated with or endorsed by any service provider.
+              </p>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -77,10 +88,10 @@ export function HeroSection() {
               className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4"
             >
               <Button variant="hero" size="lg" asChild>
-                <a href="tel:+18559450333">View Plans</a>
+                <a href="tel:+18559450333">Get Assistance</a>
               </Button>
               <Button variant="hero-outline" size="lg" asChild>
-                <a href="tel:+18559450333">Get Started</a>
+                <a href="tel:+18559450333">Speak With Support</a>
               </Button>
             </motion.div>
 
@@ -92,18 +103,20 @@ export function HeroSection() {
               className="flex items-center justify-between gap-4 sm:gap-6 mt-8 md:mt-10 pt-6 md:pt-8 border-t border-border"
             >
               <div className="text-center">
-                <span className="text-xl sm:text-2xl font-black text-accent">1 Gbps</span>
-                <p className="text-[10px] sm:text-xs text-muted-foreground">Max Speed</p>
+                <span className="text-xl sm:text-2xl font-black text-accent">Free</span>
+                <p className="text-[10px] sm:text-xs text-muted-foreground">Consultation</p>
               </div>
               <div className="w-px h-8 sm:h-10 bg-border" />
               <div className="text-center">
-                <span className="text-xl sm:text-2xl font-black text-accent">99.9%</span>
+                <span className="text-xl sm:text-2xl font-black text-accent">Multiple</span>
+                <p className="text-[10px] sm:text-xs text-muted-foreground">Providers</p>
+              </div>
                 <p className="text-[10px] sm:text-xs text-muted-foreground">Uptime</p>
               </div>
               <div className="w-px h-8 sm:h-10 bg-border" />
               <div className="text-center">
                 <span className="text-xl sm:text-2xl font-black text-accent">24/7</span>
-                <p className="text-[10px] sm:text-xs text-muted-foreground">Support</p>
+                <p className="text-[10px] sm:text-xs text-muted-foreground">Guidance</p>
               </div>
             </motion.div>
           </motion.div>
