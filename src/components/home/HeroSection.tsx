@@ -111,8 +111,6 @@ export function HeroSection() {
                 <span className="text-xl sm:text-2xl font-black text-accent">Multiple</span>
                 <p className="text-[10px] sm:text-xs text-muted-foreground">Providers</p>
               </div>
-                <p className="text-[10px] sm:text-xs text-muted-foreground">Uptime</p>
-              </div>
               <div className="w-px h-8 sm:h-10 bg-border" />
               <div className="text-center">
                 <span className="text-xl sm:text-2xl font-black text-accent">24/7</span>
