@@ -86,7 +86,7 @@ export function StreamingSection() {
             </div>
 
             <Button variant="hero" size="lg" asChild>
-              <a href="tel:+18559450333">Get Connected</a>
+              <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
             </Button>
           </motion.div>
         </div>

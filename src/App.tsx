@@ -57,6 +57,15 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        {/* Sticky Call Button */}
+        <a
+          href="tel:+18559450333"
+          className="fixed bottom-6 right-6 z-50 bg-accent text-accent-foreground shadow-lg rounded-full px-6 py-3 flex items-center gap-2 hover:brightness-110 transition-all"
+          style={{ boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M22 16.92V19a2 2 0 01-2.18 2A19.86 19.86 0 013 5.18 2 2 0 015 3h2.09a2 2 0 012 1.72c.13.81.36 1.6.7 2.34a2 2 0 01-.45 2.11l-.27.27a16 16 0 006.29 6.29l.27-.27a2 2 0 012.11-.45c.74.34 1.53.57 2.34.7A2 2 0 0121 16.92z" /></svg>
+          Call Now
+        </a>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

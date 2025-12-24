@@ -88,10 +88,10 @@ export function HeroSection() {
               className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4"
             >
               <Button variant="hero" size="lg" asChild>
-                <a href="tel:+18559450333">Get Assistance</a>
+                <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
               </Button>
               <Button variant="hero-outline" size="lg" asChild>
-                <a href="tel:+18559450333">Speak With Support</a>
+                <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
               </Button>
             </motion.div>
 

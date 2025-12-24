@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -56,7 +57,10 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="accent" size="default" asChild>
-              <a href="tel:+18559450333">(855) 945-0333</a>
+              <a href="tel:+18559450333" className="flex items-center gap-2">
+                <Phone className="w-5 h-5" />
+                (855) 945-0333 – Call Now
+              </a>
             </Button>
           </div>
 

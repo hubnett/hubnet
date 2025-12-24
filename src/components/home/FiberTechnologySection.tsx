@@ -81,7 +81,7 @@ export function FiberTechnologySection() {
             </div>
 
             <Button variant="accent" size="lg" asChild>
-              <a href="tel:+18559450333">Explore Fiber Plans</a>
+              <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
             </Button>
           </motion.div>
         </div>

@@ -124,10 +124,10 @@ export function ContactSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" className="bg-white text-accent hover:bg-white/90" asChild>
-              <a href="tel:+18559450333">Request Help</a>
+              <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-              <a href="tel:+18559450333">Speak With Support</a>
+              <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
             </Button>
           </div>
         </motion.div>

@@ -49,10 +49,10 @@ const BusinessPage = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   <Button variant="hero" size="lg" asChild>
-                    <a href="tel:+18559450333">Get a Quote</a>
+                    <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
-                    <a href="tel:+18559450333">View Plans</a>
+                    <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
                   </Button>
                 </div>
               </motion.div>
@@ -312,10 +312,10 @@ const BusinessPage = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" className="bg-white text-accent hover:bg-white/90" asChild>
-                  <a href="tel:+18559450333">Contact Sales</a>
+                  <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
                 </Button>
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10" asChild>
-                  <a href="tel:+18559450333">View All Plans</a>
+                  <a href="tel:+18559450333">(855) 945-0333 – Call Now</a>
                 </Button>
               </div>
             </motion.div>
